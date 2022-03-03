@@ -9,15 +9,9 @@ const NavBar = () => {
                 <li><Logo/></li>
             </ul>
             <ul className={styles.navBar}>
-                <li>
-                    <div className={styles.navPill}>Hint</div>
-                </li>
-                <li>
-                    <div className={styles.navPill}>Prizes</div>
-                </li>
-                <li>
-                    <div className={styles.navPill}>About</div>
-                </li>
+                <li><div className={styles.navPill}>Hint</div></li>
+                <li><div className={styles.navPill}>Prizes</div></li>
+                <li><div className={styles.navPill}>About</div></li>
             </ul>
             <ul className={styles.right}>
                 <li>Contact</li>
