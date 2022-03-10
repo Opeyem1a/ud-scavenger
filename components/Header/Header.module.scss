@@ -1,0 +1,52 @@
+@import "styles/abstracts/variables/colors";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+
+    &.navBar {
+      background-color: $light;
+      border-radius: 0.5rem;
+      box-shadow: rgba($dark, 0.06) 0 0.75rem 1.5rem;
+      margin: 0;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+
+      li {
+        div.navPill {
+          border-radius: 0.3rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 2.5rem;
+          width: 6rem;
+          background-color: $light;
+          color: $purple;
+
+          &:hover {
+            background-color: $purple;
+            cursor: pointer;
+            color: $pink;
+          }
+        }
+      }
+    }
+
+    &:not(.navBar) {
+      width: 20rem;
+    }
+
+    &.right {
+      text-align: end;
+    }
+  }
+}
+
