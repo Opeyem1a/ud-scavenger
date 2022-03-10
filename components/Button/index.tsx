@@ -1,10 +1,18 @@
 import React from 'react';
+import {Button, ButtonStyle} from "../../types/button";
 
-const Button = () => {
+import styles from './Button.module.scss';
+
+const getButtonClass = (style: ButtonStyle) => {
+    if(style === 'primary') return `${styles.button}`;
+    if(style === 'flat') return `${styles.button}`;
+}
+
+const Button = ({content, style}: Button) => {
     return (
-        <div>
-
-        </div>
+        <button className={`${getButtonClass(style)}`} type={'button'}>
+            {content}
+        </button>
     );
 };
 
