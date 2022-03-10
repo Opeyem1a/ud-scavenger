@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Header.module.scss';
 import Logo from "../Logo";
 
-const NavBar = () => {
+const Header = () => {
     return (
         <nav className={styles.header}>
             <ul className={styles.left}>
@@ -26,4 +26,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default Header;

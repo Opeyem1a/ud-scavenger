@@ -1,0 +1,32 @@
+@import "styles/abstracts/variables/colors";
+
+.hintModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15rem;
+  padding: 2rem;
+  background-color: $white;
+  border: black 1px solid;
+  border-radius: 0.25rem;
+
+  .hintModalTop {
+    display: flex;
+    justify-content: space-between;
+
+    .hintModalTitle {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .hintModalTags {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .hintModalFooter {
+    display: flex;
+    justify-content: space-between;
+  }
+}

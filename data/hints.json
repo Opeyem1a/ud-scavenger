@@ -1,0 +1,20 @@
+[
+  {
+    "title": "A",
+    "description": "a",
+    "code": "",
+    "buildingCode": "",
+    "active": true,
+    "prizeClaimed": true,
+    "sponsor": ""
+  },
+  {
+    "title": "B",
+    "description": "b",
+    "code": "",
+    "buildingCode": "",
+    "active": true,
+    "prizeClaimed": true,
+    "sponsor": ""
+  }
+]

@@ -1,0 +1,18 @@
+@import "styles/abstracts/variables/colors";
+
+.button {
+  border: none;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: $purple;
+  color: $pink;
+
+  &:hover {
+    background-color: $white;
+    color: $purple;
+    cursor: pointer;
+  }
+}
